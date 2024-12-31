@@ -57,15 +57,15 @@ const Portfolio = () => {
     },
     {
       title: 'CMS Development',
-      description: ['e-Commerce website', 'Content management system', 'Customer relationship management'],
+      description: ['E-Commerce website', 'Content Management System', 'Customer Relationship Management'],
       imageUrl: require('../../assets/images/realstateimg1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#FFFF',
       textColor: 'text-white',
     },
     {
-      title: 'App Development',
-      description: ['Android App\'s', 'Hybrid App\'s', 'Progressive Web App\'s'],
+      title: 'Mobile App Development',
+      description: ['Android Apps', 'IOSs', 'Progressive Web Apps'],
       imageUrl: require('../../assets/images/mapp1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#015177',
@@ -73,7 +73,7 @@ const Portfolio = () => {
     },
     {
       title: 'Digital Marketing',
-      description: ['SEO (Search Engine Optimization)', 'SMM (Social media marketing)', 'Branding'],
+      description: ['SEO (Search Engine Optimization)', 'SMM (Social Media Marketing)', 'Branding'],
       imageUrl: require('../../assets/images/social1.jpg'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#FFFF',
@@ -81,7 +81,7 @@ const Portfolio = () => {
     },
     {
       title: 'UI/UX',
-      description: ['Mobile App & Web UI/UX Design', 'User Research', 'UX Enhancements'],
+      description: ['Mobile App & Web UI/UX Design', 'Figma and related tools', 'UX Enhancements'],
       imageUrl: require('../../assets/images/uiux1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#015177',
@@ -109,11 +109,6 @@ const Portfolio = () => {
       </div>
     </div>
   );
-
-  const handleImageClick = () => {
-    window.open("https://mcdmf.com/", "_blank");
-  };
-
   return (
     <>
       <Front>
@@ -166,14 +161,6 @@ const Portfolio = () => {
               bgColor=""
             />
           </SwiperSlide>
-          {/* <SwiperSlide>
-            <Box
-              title="Astrology Offline"
-              description="Expert Astrologist Website"
-              icone={Focify}
-              bgColor=""
-            />
-          </SwiperSlide> */}
           <SwiperSlide className='swiper-slide-Geeks'>
             <Box
               title="New Service"
@@ -236,9 +223,6 @@ const Portfolio = () => {
           <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg transform transition-transform duration-300 hover:scale-105">
             <img src={Mantra} alt="Client 2" className="w-full h-auto object-contain" />
           </div>
-          {/* <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg transform transition-transform duration-300 hover:scale-105">
-      <img src={Focify} alt="Client 3" className="w-full h-auto object-contain" />
-    </div> */}
           <div className="flex items-center justify-center p-4 bg-white shadow-md rounded-lg transform transition-transform duration-300 hover:scale-105">
             <img src={Loud} alt="Client 4" className="w-full h-auto object-contain" />
           </div>
@@ -274,7 +258,6 @@ const Portfolio = () => {
               src={Real}
               alt="MCDMF"
               className="storyimg transition-transform duration-300 ease-in-out hover:translate-y-5 w-full h-full rounded-lg object-cover"
-            // onClick={handleImageClick} // Handle click to open link
             />
           </div>
           <div className="portText w-full md:w-1/2 p-4">
@@ -351,10 +334,8 @@ const Portfolio = () => {
               src={MCDMF}
               alt="MCDMF"
               className="storyimg transition-transform duration-300 ease-in-out hover:translate-y-5 w-full h-full rounded-lg object-cover"
-            // onClick={handleImageClick} // Handle click to open link
             />
           </div>
-
           <div className="portText w-full md:w-1/2 p-4">
             <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">MCDMF</h1>
             <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -429,7 +410,6 @@ const Portfolio = () => {
               src={CMS}
               alt="CMS"
               className="storyimg transition-transform duration-300 ease-in-out hover:translate-y-5 w-full h-full object-cover rounded-lg"
-            // onClick={handleImageClick} // Handle click to open link
             />
           </div>
           <div className="portText w-full md:w-1/2 p-4">
@@ -500,18 +480,16 @@ const Portfolio = () => {
             />
           </div>
         </div>
-
         <div className="cardSection flex flex-col-reverse md:flex-row-reverse bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-right" data-aos-delay="100">
           <div className="port_img w-full md:w-1/2 h-64 md:h-full">
             <img
               src={Imly}
               alt="CMS"
               className="storyimg transition-transform duration-300 ease-in-out hover:translate-y-5 w-full h-full object-cover rounded-lg"
-            // onClick={handleImageClick} // Handle click to open link
             />
           </div>
           <div className="portText w-full md:w-1/2 p-4">
-            <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">Interior Design System
+            <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">InteriorSoft
             </h1>
             <div className="flex flex-wrap justify-center gap-2 mb-6">
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -524,7 +502,7 @@ const Portfolio = () => {
                 SQL
               </span>
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
-                Docker
+              React Native
               </span>
             </div>
             <p className="text-white flex items-start mb-4" data-aos="fade-left" data-aos-delay="200">
@@ -572,11 +550,6 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="port_img w-full md:w-1/2 h-64 md:h-full">
-            {/* <img
-              src={OneClick}
-              alt="E-Commerce"
-              className="storyimg transition-transform duration-300 ease-in-out hover:translate-y-5 w-full h-full rounded-lg object-cover"
-            /> */}
             <Swiper
               modules={[Autoplay]} // Add the Autoplay module
               spaceBetween={0}
@@ -633,7 +606,6 @@ const Portfolio = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-
           <div className="portText w-full md:w-1/2 p-4">
             <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">
               Nimboo Bill
@@ -671,7 +643,7 @@ const Portfolio = () => {
         </div>
         <div className="cardSection reverse flex flex-col-reverse md:flex-row bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-left" data-aos-delay="100">
           <div className="portText w-full md:w-1/2 p-4">
-            <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">e-commerce mobile app
+            <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">E-Commerce Mobile App
             </h1>
             <div className="flex flex-wrap justify-center gap-2 mb-6">
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -681,7 +653,10 @@ const Portfolio = () => {
                 Node.js
               </span>
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
-                PostgreSQL
+              Android
+              </span>
+              <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
+              IOS
               </span>
             </div>
             <p className="text-white flex items-start mb-4" data-aos="fade-left" data-aos-delay="200">
@@ -694,7 +669,7 @@ const Portfolio = () => {
               <span className="text-white mt-1 mr-3 flex-shrink-0 text-sm md:text-base">
                 <GoArrowRight />
               </span>
-              It features a user-friendly interface, secure payment options, and personalized recommendations for a seamless shopping experience.
+             Secure payment options, and personalized recommendations for a seamless shopping experience.
             </p>
           </div>
           <div className="port_img w-full h-auto flex flex-col sm:flex-row gap-4">
@@ -709,9 +684,6 @@ const Portfolio = () => {
               className="transition-transform duration-300 ease-in-out hover:translate-y-5 w-full sm:w-1/2 h-[16rem] sm:h-[28rem] rounded-lg object-contain"
             />
           </div>
-
-
-
         </div>
         <div className="cardSection flex flex-col-reverse md:flex-row-reverse bg-gray-100 p-6 rounded-lg shadow-md" data-aos="fade-right" data-aos-delay="100">
           <div className="port_img w-full h-auto flex flex-col sm:flex-row gap-4">
@@ -726,11 +698,9 @@ const Portfolio = () => {
               className="transition-transform duration-300 ease-in-out hover:translate-y-5 w-full sm:w-1/2 h-[16rem] sm:h-[28rem] rounded-lg object-contain"
             />
           </div>
-
-
           <div className="portText w-full md:w-1/2 p-4">
             <h1 className="headding text-2xl font-bold text-white mb-4" data-aos="fade-right">
-              Mana Mandi mobile app
+            Mana Mandi Mobile App
             </h1>
             <div className="flex flex-wrap justify-center gap-2 mb-6">
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
@@ -740,14 +710,17 @@ const Portfolio = () => {
                 .NET
               </span>
               <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
-                PostgreSQL
+              Android
+              </span>
+              <span className="bg-white text-black px-3 py-1 rounded-md hover:bg-gray-200 hover:text-gray-800 transition-colors duration-300 w-auto">
+              IOS
               </span>
             </div>
             <p className="text-white flex items-start mb-4" data-aos="fade-left" data-aos-delay="200">
               <span className="text-white mt-1 mr-3 flex-shrink-0 text-sm md:text-base">
                 <GoArrowRight />
               </span>
-              Our app is designed to deliver seamless performance, solving complex problems with a user-friendly interface.
+              Our Mobile app is designed to deliver seamless performance, solving complex problems with a user-friendly interface.
             </p>
             <p className="text-white flex items-start mb-4" data-aos="fade-left" data-aos-delay="200">
               <span className="text-white mt-1 mr-3 flex-shrink-0 text-sm md:text-base">
