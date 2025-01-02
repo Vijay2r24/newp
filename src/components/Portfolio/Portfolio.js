@@ -49,7 +49,7 @@ const Portfolio = () => {
   const services = [
     {
       title: 'Web Development',
-      description: ['Web Designing', 'e-Commerce website', 'Dynamic website'],
+      description: ['Interactive Dynamic Design', 'E-Commerce website', 'AI Enhances Web Development'],
       imageUrl: require('../../assets/images/web1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#015177',
@@ -57,7 +57,7 @@ const Portfolio = () => {
     },
     {
       title: 'CMS Development',
-      description: ['E-Commerce website', 'Content Management System', 'Customer Relationship Management'],
+      description: ['Online Academy', 'Content Management System', 'Customer Relationship Management'],
       imageUrl: require('../../assets/images/realstateimg1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#FFFF',
@@ -65,7 +65,7 @@ const Portfolio = () => {
     },
     {
       title: 'Mobile App Development',
-      description: ['Android Apps', 'IOSs', 'Progressive Web Apps'],
+      description: ['Android Apps', ' iOS Apps', 'Progressive Web Apps'],
       imageUrl: require('../../assets/images/mapp1.png'),
       bgimage: require('../../assets/images/curveline.jpg'),
       bgColor: '#015177',
