@@ -17,6 +17,7 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import LoadingSpinner from "./components/Loader/Loader";
 import Portfolio from "./components/Portfolio/Portfolio";
+import TawkToWidget from "./components/tawk/TawkToWidget"
 
 const ScrollToTop = () => {
   const location = useLocation();
@@ -117,6 +118,7 @@ function App() {
         {loading && <LoadingSpinner />}{" "}
         {/* Display loading spinner while loading */}
       </Router>
+      <TawkToWidget/>
     </div>
   );
 }
